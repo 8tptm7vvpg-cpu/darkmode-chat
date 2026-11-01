@@ -11,3 +11,12 @@
 @keyframes green-motion{to{background-position:250% 0}}
 @media(max-width:520px){.window{width:100%;height:var(--chat-height,100dvh);max-height:100dvh;bottom:var(--chat-bottom,0px)}.messages{padding:16px 13px}.wordmark b,.wordmark strong{font-size:27px}.product{grid-template-columns:95px 1fr}.product>img{width:95px}.quick{gap:8px}.quick button{font-size:13px}.composer input{font-size:16px}footer{font-size:10px}.bubble{max-width:97%}}
 @media(prefers-reduced-motion:reduce){*,.composer.has-text,.composer.has-text button{animation:none!important}}
+/* 1.2 — centered vector controls and paced response reveals */
+.controls button{display:grid;place-items:center;padding:0;line-height:1}.controls button svg{display:block;width:21px;height:21px;margin:0}
+.typing{display:flex;align-items:center;min-height:44px;padding:3px 16px;background:#303030;border-radius:12px;width:fit-content}.dots{display:flex;gap:5px;animation:none;line-height:1}.dots i{font-style:normal;font-size:32px;font-weight:900;animation:typing-dot 1.05s ease-in-out infinite}.dots i:nth-child(2){animation-delay:.16s}.dots i:nth-child(3){animation-delay:.32s}
+.bot,.choices,.cards,.receipt,.block{animation:response-reveal .55s ease-out both}.cards .product{animation:response-reveal .6s ease-out both}.cards .product:nth-child(2){animation-delay:.12s}.cards .product:nth-child(3){animation-delay:.24s}.cards .product:nth-child(n+4){animation-delay:.36s}
+@keyframes typing-dot{0%,60%,100%{opacity:.35;transform:translateY(0)}30%{opacity:1;transform:translateY(-5px)}}@keyframes response-reveal{from{opacity:0;transform:translateY(8px);filter:blur(4px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.dots i,.bot,.choices,.cards,.receipt,.block,.cards .product{animation:none!important}}
+
+/* Preserve the complete SUV silhouette in narrow product thumbnails. */
+.product>img{object-fit:contain;background:#bcbcbc}

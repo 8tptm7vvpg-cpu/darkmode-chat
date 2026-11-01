@@ -1,6 +1,6 @@
 /* Edit this file for each client. Never put secrets here. */
 window.DARKMODE_CONFIG = {
-  "version": "1.1",
+  "version": "1.3",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
