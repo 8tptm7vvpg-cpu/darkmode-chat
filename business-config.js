@@ -1,6 +1,5 @@
-/* Edit this file for each client. Never put secrets here. */
 window.DARKMODE_CONFIG = {
-  "version": "1.3",
+  "version": "1.4",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
@@ -24,55 +23,74 @@ window.DARKMODE_CONFIG = {
     {
       "id": "department-one",
       "label": "Department One",
-      "description": "Explore products & inventory",
+      "description": "Sales inventory demonstration",
       "options": [
         {
-          "label": "Browse products",
-          "action": "products"
+          "label": "Department One CTA #1 (Pull)",
+          "action": "pull-sales",
+          "loading": "Pulling simulated sales vehicle inventory\u2026"
         },
         {
-          "label": "Browse vehicle inventory",
-          "action": "inventory"
+          "label": "Department One CTA #2 (Link)",
+          "action": "link",
+          "loading": "Searching the website for the page you\u2019re asking for."
         },
         {
-          "label": "Ask a question",
-          "action": "inquiry"
+          "label": "Department One CTA #3 (Submit)",
+          "action": "submit",
+          "loading": "Preparing your inquiry form\u2026"
         }
-      ]
+      ],
+      "pageLabel": "View sample sales page",
+      "pageDescription": "Sales page: explore new and pre-owned vehicles and request a test drive."
     },
     {
       "id": "department-two",
       "label": "Department Two",
-      "description": "Appointments & support",
+      "description": "Automotive parts demonstration",
       "options": [
         {
-          "label": "Request an appointment",
-          "action": "appointment"
+          "label": "Department Two CTA #1 (Pull)",
+          "action": "pull-parts",
+          "loading": "Pulling simulated automotive parts product information\u2026"
         },
         {
-          "label": "Ask a specialist",
-          "action": "inquiry"
+          "label": "Department Two CTA #2 (Link)",
+          "action": "link",
+          "loading": "Searching the website for the page you\u2019re asking for."
+        },
+        {
+          "label": "Department Two CTA #3 (Submit)",
+          "action": "submit",
+          "loading": "Preparing your inquiry form\u2026"
         }
-      ]
+      ],
+      "pageLabel": "View sample parts page",
+      "pageDescription": "Parts page: browse maintenance parts and request an order."
     },
     {
       "id": "department-three",
       "label": "Department Three",
-      "description": "Orders & general questions",
+      "description": "Store hours demonstration",
       "options": [
         {
-          "label": "Order an item",
-          "action": "products"
+          "label": "Department Three CTA #1 (Pull)",
+          "action": "pull-hours",
+          "loading": "Pulling simulated store hours\u2026"
         },
         {
-          "label": "Order support",
-          "action": "inquiry"
+          "label": "Department Three CTA #2 (Link)",
+          "action": "link",
+          "loading": "Searching the website for the page you\u2019re asking for."
         },
         {
-          "label": "Other question",
-          "action": "inquiry"
+          "label": "Department Three CTA #3 (Submit)",
+          "action": "submit",
+          "loading": "Preparing your inquiry form\u2026"
         }
-      ]
+      ],
+      "pageLabel": "View sample store information page",
+      "pageDescription": "Store information: contact details, hours and directions."
     }
   ],
   "keywords": {
@@ -258,6 +276,65 @@ window.DARKMODE_CONFIG = {
       ],
       "image": "assets/images/DARKMODE-IMAGE-001.png",
       "url": ""
+    },
+    {
+      "id": "PART-001",
+      "type": "parts",
+      "name": "Front Brake Rotor Kit",
+      "price": "$149.00",
+      "description": "Example SKU BRK-100. Two front rotors. Fitment must be confirmed by the parts team.",
+      "condition": "",
+      "tags": [
+        "parts",
+        "brake",
+        "automotive"
+      ],
+      "image": "assets/images/DARKMODE-IMAGE-003.png",
+      "url": ""
+    },
+    {
+      "id": "PART-002",
+      "type": "parts",
+      "name": "Performance Brake Caliper",
+      "price": "$189.00",
+      "description": "Example SKU CAL-200. Single replacement caliper. Demo specifications only.",
+      "condition": "",
+      "tags": [
+        "parts",
+        "brake",
+        "automotive"
+      ],
+      "image": "assets/images/DARKMODE-IMAGE-003.png",
+      "url": ""
+    },
+    {
+      "id": "PART-003",
+      "type": "parts",
+      "name": "Complete Brake Service Bundle",
+      "price": "$329.00",
+      "description": "Example SKU BND-300. Pads, rotors and hardware bundle. Fictional price and compatibility.",
+      "condition": "",
+      "tags": [
+        "parts",
+        "brake",
+        "automotive"
+      ],
+      "image": "assets/images/DARKMODE-IMAGE-003.png",
+      "url": ""
+    }
+  ],
+  "storeHours": [
+    {
+      "days": "Monday\u2013Friday",
+      "hours": "9:00 AM\u20137:00 PM"
+    },
+    {
+      "days": "Saturday",
+      "hours": "9:00 AM\u20135:00 PM"
+    },
+    {
+      "days": "Sunday",
+      "hours": "Closed"
     }
   ]
 };

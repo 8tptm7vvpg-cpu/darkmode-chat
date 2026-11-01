@@ -20,3 +20,5 @@
 
 /* Preserve the complete SUV silhouette in narrow product thumbnails. */
 .product>img{object-fit:contain;background:#bcbcbc}
+/* 1.4 — visible typed loading descriptions */
+.typing{max-width:100%;gap:12px;width:auto;align-items:center}.loading-label{color:var(--mint);font-size:14px;line-height:1.55;min-width:0}.dots{flex-shrink:0}.bot{min-height:48px}.bot>span[aria-hidden]{white-space:pre-wrap}
