@@ -37,3 +37,4 @@
 /* 1.8 — direct quick actions and strong directional icons */
 .quick{flex-wrap:wrap}.quick a{display:inline-flex;align-items:center;border:1px solid var(--mint);border-radius:20px;padding:7px 13px;color:#eee;font-size:13px;text-decoration:none;min-height:36px}.quick a:hover{background:#263d32}.link-button{display:flex;align-items:center;justify-content:space-between;text-align:left;gap:16px}.action-arrow{font-size:23px;line-height:1;font-weight:900;color:#000}.choices button>span:last-child{color:#000;background:transparent;border:0;font-weight:900;font-size:25px}.product .detail{font-weight:900}
 @media(max-width:650px){.quick{gap:6px;padding-inline:10px}.quick a,.quick button{font-size:12px;padding:7px 10px}}
+.name-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;min-width:0}.name-fields label{min-width:0}.name-fields input{min-width:0}@media(max-width:420px){.name-fields{grid-template-columns:1fr;gap:0}}
