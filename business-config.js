@@ -1,5 +1,5 @@
 window.DARKMODE_CONFIG = {
-  "version": "1.6",
+  "version": "1.7",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
