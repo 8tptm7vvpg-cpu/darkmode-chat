@@ -1,6 +1,6 @@
 /* Edit this file for each client. Never put secrets here. */
 window.DARKMODE_CONFIG = {
-  "version": "1.0",
+  "version": "1.1",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
@@ -19,7 +19,7 @@ window.DARKMODE_CONFIG = {
     "mode": "simulation",
     "endpoint": ""
   },
-  "greeting": "What can we help you with today?",
+  "greeting": "Type in what we can help you at with today or click on one of the department links below to get started.",
   "departments": [
     {
       "id": "department-one",
