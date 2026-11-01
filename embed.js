@@ -1,0 +1,2 @@
+/* One-script installation. A page supports one widget/configuration. */
+(()=>{const tag=document.currentScript,base=new URL('.',tag.src);if(document.getElementById('darkmode-chat-host'))return;const config=document.createElement('script');config.src=new URL(tag.dataset.config||'business-config.js',base).href;config.onload=()=>{const widget=document.createElement('script');widget.src=new URL('widget.js',base).href;document.head.append(widget)};config.onerror=()=>console.error('Darkmode Chat: configuration could not load');document.head.append(config)})();
