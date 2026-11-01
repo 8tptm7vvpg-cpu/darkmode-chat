@@ -1,11 +1,11 @@
 window.DARKMODE_CONFIG = {
-  "version": "1.5",
+  "version": "1.6",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
-    "phone": "",
-    "address": "Demo location \u2014 add your business address",
-    "directionsUrl": "",
+    "phone": "757-239-7007",
+    "address": "Virginia Beach, Virginia",
+    "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Virginia+Beach%2C+Virginia",
     "website": "https://darkmodeworks.com"
   },
   "branding": {
@@ -18,7 +18,7 @@ window.DARKMODE_CONFIG = {
     "mode": "simulation",
     "endpoint": ""
   },
-  "greeting": "Type in what we can help you at with today or click on one of the department links below to get started.",
+  "greeting": "Start typing below or click a department above to get started.",
   "departments": [
     {
       "id": "department-one",
