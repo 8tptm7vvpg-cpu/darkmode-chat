@@ -1,5 +1,5 @@
 window.DARKMODE_CONFIG = {
-  "version": "1.12",
+  "version": "1.13",
   "business": {
     "id": "darkmode-demo",
     "name": "Darkmode Chat",
@@ -23,78 +23,78 @@ window.DARKMODE_CONFIG = {
     {
       "id": "sales",
       "label": "Automotive Sales",
-      "description": "Sales Inventory Demonstration",
-      "catalogType": "inventory",
-      "response": "I can help you explore Lexus models, new and pre-owned vehicles, financing, trade-ins and test drives.",
-      "linkLabel": "Shop Lexus Inventory (Link)",
-      "linkUrl": "https://prioritylexusvirginiabeach.com/inventory",
+      "description": "Sales Offers Demonstration",
+      "catalogType": "sales-special",
+      "response": "Explore example sales offers, preview a website page, or ask our sales team a question.",
+      "linkLabel": "Explore Sales Offers (Link)",
+      "linkUrl": "link-preview.html",
       "options": [
         {
-          "label": "Browse Sales Inventory (Pull)",
+          "label": "View Sales Offers (Pull)",
           "action": "pull",
-          "loading": "Pulling sample sales inventory demonstration data\u2026"
+          "loading": "Pulling sample sales offers…"
         },
         {
-          "label": "Shop Lexus Inventory (Link)",
+          "label": "Explore Sales Offers (Link)",
           "action": "department-link",
-          "loading": "Finding the page you need\u2026"
+          "loading": "Finding the page you need…"
         },
         {
           "label": "Ask Sales a Question (Submit)",
           "action": "submit",
-          "loading": "Preparing your inquiry form\u2026"
+          "loading": "Preparing your inquiry form…"
         }
       ]
     },
     {
       "id": "parts",
       "label": "Automotive Parts",
-      "description": "Parts Inventory Demonstration",
-      "catalogType": "parts",
-      "response": "I can help you explore Genuine Lexus parts and accessories. Our parts team can confirm fitment using your vehicle details or VIN.",
-      "linkLabel": "Shop Genuine Lexus Parts (Link)",
-      "linkUrl": "https://parts.prioritylexusvirginiabeach.com/",
+      "description": "Parts Offers Demonstration",
+      "catalogType": "parts-special",
+      "response": "Explore example parts offers, preview a website page, or ask our parts team a question.",
+      "linkLabel": "Explore Parts Offers (Link)",
+      "linkUrl": "link-preview.html",
       "options": [
         {
-          "label": "Browse Parts (Pull)",
+          "label": "View Parts Offers (Pull)",
           "action": "pull",
-          "loading": "Pulling sample parts inventory demonstration data\u2026"
+          "loading": "Pulling sample parts offers…"
         },
         {
-          "label": "Shop Genuine Lexus Parts (Link)",
+          "label": "Explore Parts Offers (Link)",
           "action": "department-link",
-          "loading": "Finding the page you need\u2026"
+          "loading": "Finding the page you need…"
         },
         {
           "label": "Ask Parts a Question (Submit)",
           "action": "submit",
-          "loading": "Preparing your inquiry form\u2026"
+          "loading": "Preparing your inquiry form…"
         }
       ]
     },
     {
       "id": "service",
       "label": "Automotive Service",
-      "description": "Service Specials Demonstration",
+      "description": "Service Offers Demonstration",
       "catalogType": "service",
-      "response": "I\u2019d be happy to get you a link to our service scheduler. You can also browse example service specials or ask our service team a question.",
+      "response": "I’d be happy to get you a link to schedule service. Explore our example service offers or send our team a question.",
       "linkLabel": "Schedule Service (Link)",
-      "linkUrl": "https://prioritylexusvirginiabeach.com/service-scheduler",
+      "linkUrl": "link-preview.html",
       "options": [
         {
-          "label": "View Service Specials (Pull)",
+          "label": "View Service Offers (Pull)",
           "action": "pull",
-          "loading": "Pulling sample service specials demonstration data\u2026"
+          "loading": "Pulling sample service offers…"
         },
         {
           "label": "Schedule Service (Link)",
           "action": "department-link",
-          "loading": "Finding the page you need\u2026"
+          "loading": "Finding the page you need…"
         },
         {
           "label": "Ask Service a Question (Submit)",
           "action": "submit",
-          "loading": "Preparing your inquiry form\u2026"
+          "loading": "Preparing your inquiry form…"
         }
       ]
     }
@@ -115,8 +115,6 @@ window.DARKMODE_CONFIG = {
       "car",
       "cars",
       "suv",
-      "rx",
-      "gx",
       "sedan",
       "used",
       "preowned",
@@ -145,294 +143,26 @@ window.DARKMODE_CONFIG = {
   "nextSteps": {
     "appointment": {
       "label": "Open scheduling page",
-      "url": ""
+      "url": "link-preview.html"
     },
     "availability": {
       "label": "Browse website",
-      "url": ""
+      "url": "link-preview.html"
     },
     "inquiry": {
       "label": "Visit website",
-      "url": ""
+      "url": "link-preview.html"
     }
   },
-  "products": [
-    {
-      "id": "STOCK-001",
-      "type": "inventory",
-      "name": "2026 Lexus Demo RX SUV",
-      "price": "$52,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "New",
-      "tags": [
-        "vehicle",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-002",
-      "type": "inventory",
-      "name": "2026 Lexus Demo GX SUV",
-      "price": "$68,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "New",
-      "tags": [
-        "vehicle",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-003",
-      "type": "inventory",
-      "name": "2026 Lexus Demo Compact SUV",
-      "price": "$39,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "New",
-      "tags": [
-        "vehicle",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-004",
-      "type": "inventory",
-      "name": "2024 Lexus Demo RX SUV",
-      "price": "$41,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "Pre-Owned",
-      "tags": [
-        "vehicle",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-005",
-      "type": "inventory",
-      "name": "2023 Lexus Demo GX SUV",
-      "price": "$48,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "Pre-Owned",
-      "tags": [
-        "vehicle",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-006",
-      "type": "inventory",
-      "name": "2022 Lexus Demo Touring Sedan",
-      "price": "$29,000",
-      "description": "Illustrative vehicle listing. Specifications, pricing and availability are simulated.",
-      "condition": "Pre-Owned",
-      "tags": [
-        "vehicle",
-        "sedan"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
-      "department": "sales"
-    },
-    {
-      "id": "STOCK-007",
-      "type": "inventory",
-      "department": "sales",
-      "name": "2026 Lexus NX \u2014 Demo",
-      "condition": "New",
-      "price": "Example listing",
-      "description": "Simulated vehicle. No live price, stock or availability assertion.",
-      "tags": [
-        "nx",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": ""
-    },
-    {
-      "id": "STOCK-008",
-      "type": "inventory",
-      "department": "sales",
-      "name": "2026 Lexus TX \u2014 Demo",
-      "condition": "New",
-      "price": "Example listing",
-      "description": "Simulated vehicle. No live price, stock or availability assertion.",
-      "tags": [
-        "tx",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": ""
-    },
-    {
-      "id": "STOCK-009",
-      "type": "inventory",
-      "department": "sales",
-      "name": "2026 Lexus LX \u2014 Demo",
-      "condition": "New",
-      "price": "Example listing",
-      "description": "Simulated vehicle. No live price, stock or availability assertion.",
-      "tags": [
-        "lx",
-        "suv"
-      ],
-      "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": ""
-    },
-    {
-      "id": "PART-001",
-      "type": "parts",
-      "department": "parts",
-      "name": "Brake Rotor Kit \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "brake rotor kit"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "PART-002",
-      "type": "parts",
-      "department": "parts",
-      "name": "Brake Caliper \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "brake caliper"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "PART-003",
-      "type": "parts",
-      "department": "parts",
-      "name": "Cabin Air Filter \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "cabin air filter"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "PART-004",
-      "type": "parts",
-      "department": "parts",
-      "name": "All-Weather Floor Mats \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "all-weather floor mats"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "PART-005",
-      "type": "parts",
-      "department": "parts",
-      "name": "Wiper Blade Set \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "wiper blade set"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "PART-006",
-      "type": "parts",
-      "department": "parts",
-      "name": "Cargo Liner \u2014 Demo",
-      "condition": "",
-      "price": "Example item",
-      "description": "Fictional product record. Parts team must confirm vehicle compatibility, pricing and availability.",
-      "tags": [
-        "parts",
-        "cargo liner"
-      ],
-      "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": ""
-    },
-    {
-      "id": "SERVICE-DEMO-4",
-      "type": "service",
-      "department": "service",
-      "name": "Battery Health Check \u2014 Demo",
-      "price": "Example service",
-      "description": "Additional pagination example, not a current special.",
-      "condition": "",
-      "tags": [
-        "service"
-      ],
-      "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": ""
-    },
-    {
-      "id": "SERVICE-DEMO-5",
-      "type": "service",
-      "department": "service",
-      "name": "Wheel Alignment Check \u2014 Demo",
-      "price": "Example service",
-      "description": "Additional pagination example, not a current special.",
-      "condition": "",
-      "tags": [
-        "service"
-      ],
-      "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": ""
-    },
-    {
-      "id": "SERVICE-DEMO-6",
-      "type": "service",
-      "department": "service",
-      "name": "Seasonal Maintenance Review \u2014 Demo",
-      "price": "Example service",
-      "description": "Additional pagination example, not a current special.",
-      "condition": "",
-      "tags": [
-        "service"
-      ],
-      "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": ""
-    }
-  ],
+  "products": [],
   "storeHours": [
     {
-      "days": "Monday\u2013Friday",
-      "hours": "9:00 AM\u20137:00 PM"
+      "days": "Monday–Friday",
+      "hours": "9:00 AM–7:00 PM"
     },
     {
       "days": "Saturday",
-      "hours": "9:00 AM\u20135:00 PM"
+      "hours": "9:00 AM–5:00 PM"
     },
     {
       "days": "Sunday",
@@ -440,40 +170,40 @@ window.DARKMODE_CONFIG = {
     }
   ],
   "hours": {
-    "source": "https://prioritylexusvirginiabeach.com/directions",
-    "verified": "2026-11-02",
+    "source": "link-preview.html",
+    "verified": "",
     "departments": [
       {
         "id": "sales",
         "label": "Automotive Sales",
-        "weekdays": "9:00 AM\u20138:00 PM",
-        "saturday": "9:00 AM\u20136:00 PM",
+        "weekdays": "9:00 AM–8:00 PM",
+        "saturday": "9:00 AM–6:00 PM",
         "sunday": "Closed"
       },
       {
         "id": "parts",
         "label": "Automotive Parts",
-        "weekdays": "7:00 AM\u20136:00 PM",
-        "saturday": "8:00 AM\u20135:00 PM",
+        "weekdays": "7:00 AM–6:00 PM",
+        "saturday": "8:00 AM–5:00 PM",
         "sunday": "Closed"
       },
       {
         "id": "service",
         "label": "Automotive Service",
-        "weekdays": "7:00 AM\u20136:00 PM",
-        "saturday": "8:00 AM\u20135:00 PM",
+        "weekdays": "7:00 AM–6:00 PM",
+        "saturday": "8:00 AM–5:00 PM",
         "sunday": "Closed"
       }
-    ]
+    ],
+    "demo": true
   },
   "examples": [
-    "tell me more about the lexus rx",
-    "show me pre-owned suvs",
-    "i need brake parts for my lexus",
+    "show me sales offers",
+    "what parts offers do you have",
+    "tell me about accessory offers",
     "how do i schedule service",
-    "show me service specials",
-    "what are your hours",
-    "tell me more about product a"
+    "show me service offers",
+    "what are your hours"
   ],
   "routing": [
     {
@@ -490,23 +220,9 @@ window.DARKMODE_CONFIG = {
         "used": 2,
         "pre owned": 3,
         "preowned": 3,
-        "lexus": 1,
-        "rx": 3,
-        "nx": 3,
-        "gx": 3,
-        "tx": 3,
-        "lx": 3,
-        "ux": 3,
-        "rz": 3,
-        "es": 3,
-        "is": 3,
-        "ls": 3,
-        "lc": 3,
         "hybrid": 2,
         "electric": 2,
         "plug in": 2,
-        "f sport": 2,
-        "overtrail": 2,
         "test drive": 5,
         "lease": 4,
         "finance": 4,
@@ -517,9 +233,14 @@ window.DARKMODE_CONFIG = {
         "trade in": 4,
         "payment": 2,
         "price": 1,
-        "product a": 3
+        "product a": 3,
+        "sales offers": 6,
+        "offer": 2,
+        "offers": 2,
+        "deal": 2,
+        "discount": 2
       },
-      "response": "Let\u2019s find a Lexus that fits what you\u2019re looking for. Explore sample inventory, browse the dealership website, or send Sales your question."
+      "response": "Explore example sales offers, preview a website page, or ask our sales team a question."
     },
     {
       "department": "parts",
@@ -546,9 +267,10 @@ window.DARKMODE_CONFIG = {
         "cargo": 1,
         "roof rack": 4,
         "wheel": 2,
-        "oil filter": 4
+        "oil filter": 4,
+        "parts offers": 6
       },
-      "response": "Looking for parts or accessories? Browse sample items, open the Lexus parts store, or ask the team to confirm fitment and availability."
+      "response": "Explore example parts offers, preview a website page, or ask our parts team a question."
     },
     {
       "department": "service",
@@ -578,9 +300,10 @@ window.DARKMODE_CONFIG = {
         "coupon": 2,
         "brakes": 2,
         "tire": 2,
-        "tires": 2
+        "tires": 2,
+        "service offers": 6
       },
-      "response": "I\u2019d be happy to get you a link to our service scheduler. Our service team can help with maintenance and repair questions; you can also explore the sample service specials."
+      "response": "I’d be happy to get you a link to schedule service. Explore our example service offers or send our team a question."
     }
   ],
   "offersSource": {
@@ -592,16 +315,16 @@ window.DARKMODE_CONFIG = {
       "id": "SALES-OFFER-1",
       "type": "sales-special",
       "department": "sales",
-      "name": "New Lexus Consultation \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "New Vehicle Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -609,16 +332,16 @@ window.DARKMODE_CONFIG = {
       "id": "SALES-OFFER-2",
       "type": "sales-special",
       "department": "sales",
-      "name": "Pre-Owned Vehicle Review \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Pre-Owned Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -626,16 +349,67 @@ window.DARKMODE_CONFIG = {
       "id": "SALES-OFFER-3",
       "type": "sales-special",
       "department": "sales",
-      "name": "Trade-In Appraisal \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Trade-In Bonus — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-4",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Finance Consultation — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-5",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Test Drive Bonus — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-6",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Seasonal Sales Event — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -643,16 +417,16 @@ window.DARKMODE_CONFIG = {
       "id": "PARTS-OFFER-1",
       "type": "parts-special",
       "department": "parts",
-      "name": "Genuine Parts Inquiry \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Accessory Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -660,16 +434,16 @@ window.DARKMODE_CONFIG = {
       "id": "PARTS-OFFER-2",
       "type": "parts-special",
       "department": "parts",
-      "name": "Accessory Fitment Check \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Filter Bundle — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -677,16 +451,67 @@ window.DARKMODE_CONFIG = {
       "id": "PARTS-OFFER-3",
       "type": "parts-special",
       "department": "parts",
-      "name": "Maintenance Parts Bundle \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Wiper Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-4",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Floor Mat Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-5",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Brake Parts Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-6",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Travel Accessories — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -694,16 +519,16 @@ window.DARKMODE_CONFIG = {
       "id": "SERVICE-OFFER-1",
       "type": "service",
       "department": "service",
-      "name": "Oil & Filter Service \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Oil & Filter Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -711,16 +536,16 @@ window.DARKMODE_CONFIG = {
       "id": "SERVICE-OFFER-2",
       "type": "service",
       "department": "service",
-      "name": "Tire Rotation & Inspection \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Tire Rotation Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -728,16 +553,67 @@ window.DARKMODE_CONFIG = {
       "id": "SERVICE-OFFER-3",
       "type": "service",
       "department": "service",
-      "name": "Brake Inspection \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Brake Inspection Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-4",
+      "type": "service",
+      "department": "service",
+      "name": "Battery Check Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-5",
+      "type": "service",
+      "department": "service",
+      "name": "Alignment Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-6",
+      "type": "service",
+      "department": "service",
+      "name": "Seasonal Maintenance Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     }

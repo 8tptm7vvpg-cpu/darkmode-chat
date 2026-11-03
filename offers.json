@@ -4,16 +4,16 @@
       "id": "SALES-OFFER-1",
       "type": "sales-special",
       "department": "sales",
-      "name": "New Lexus Consultation \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "New Vehicle Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -21,16 +21,16 @@
       "id": "SALES-OFFER-2",
       "type": "sales-special",
       "department": "sales",
-      "name": "Pre-Owned Vehicle Review \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Pre-Owned Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -38,16 +38,67 @@
       "id": "SALES-OFFER-3",
       "type": "sales-special",
       "department": "sales",
-      "name": "Trade-In Appraisal \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Trade-In Bonus — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "sales"
+        "sales",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-001.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-4",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Finance Consultation — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-5",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Test Drive Bonus — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-6",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Seasonal Sales Event — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "sales",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -55,16 +106,16 @@
       "id": "PARTS-OFFER-1",
       "type": "parts-special",
       "department": "parts",
-      "name": "Genuine Parts Inquiry \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Accessory Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -72,16 +123,16 @@
       "id": "PARTS-OFFER-2",
       "type": "parts-special",
       "department": "parts",
-      "name": "Accessory Fitment Check \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Filter Bundle — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -89,16 +140,67 @@
       "id": "PARTS-OFFER-3",
       "type": "parts-special",
       "department": "parts",
-      "name": "Maintenance Parts Bundle \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Wiper Savings — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "parts"
+        "parts",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-003.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-4",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Floor Mat Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-5",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Brake Parts Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-6",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Travel Accessories — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "parts",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -106,16 +208,16 @@
       "id": "SERVICE-OFFER-1",
       "type": "service",
       "department": "service",
-      "name": "Oil & Filter Service \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Oil & Filter Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -123,16 +225,16 @@
       "id": "SERVICE-OFFER-2",
       "type": "service",
       "department": "service",
-      "name": "Tire Rotation & Inspection \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Tire Rotation Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     },
@@ -140,16 +242,67 @@
       "id": "SERVICE-OFFER-3",
       "type": "service",
       "department": "service",
-      "name": "Brake Inspection \u2014 Demo Special",
-      "price": "Request sample offer details",
-      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
-      "condition": "",
+      "name": "Brake Inspection Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
       "tags": [
-        "special",
-        "service"
+        "service",
+        "offer",
+        "special"
       ],
       "image": "assets/DARKMODE-IMAGE-004.png",
-      "url": "",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-4",
+      "type": "service",
+      "department": "service",
+      "name": "Battery Check Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-5",
+      "type": "service",
+      "department": "service",
+      "name": "Alignment Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-6",
+      "type": "service",
+      "department": "service",
+      "name": "Seasonal Maintenance Offer — Demo Offer",
+      "price": "Claim this sample offer",
+      "description": "Demonstration only. Send your question to the team for a personal follow-up about current offers and terms.",
+      "tags": [
+        "service",
+        "offer",
+        "special"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "link-preview.html",
       "active": true,
       "expires": ""
     }
