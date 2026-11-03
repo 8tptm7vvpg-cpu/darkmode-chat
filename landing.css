@@ -15,3 +15,6 @@ body{background:#f2f3f2;color:#111}#page{background:linear-gradient(135deg,#fafb
 .product-identity{margin-bottom:24px}.product-identity img{display:block;border-radius:14px}.human-message .primary{margin-top:8px}
 
 #page .demo-strip .editor-link{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;border:3px solid #000;background:#fff;color:#000;font-weight:800;border-radius:8px;padding:12px 14px;min-height:52px;font-size:15px;text-decoration:none}#page .demo-strip .editor-link:hover{background:#e8eae8}@media(max-width:650px){#page .demo-strip .editor-link{font-size:14px}}
+/* 1.12 — integrated heading groups */
+#page .heading-intro{display:block;color:#00875c;font:inherit;letter-spacing:inherit;line-height:inherit;margin-bottom:.15em}.experience-heading{font-size:clamp(30px,4vw,52px);font-weight:500;line-height:1.1;letter-spacing:-1.5px}.features .heading-intro{font:inherit;color:#00875c}.features h2{line-height:1.2}.demo-strip{justify-content:flex-start}
+@media(max-width:650px){.demo-strip{flex-direction:column;align-items:stretch}.demo-strip button,#page .demo-strip .editor-link{width:100%;text-align:left;justify-content:space-between;align-self:flex-start}.experience-heading{font-size:32px}}
