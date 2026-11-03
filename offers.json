@@ -1,0 +1,157 @@
+{
+  "offers": [
+    {
+      "id": "SALES-OFFER-1",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "New Lexus Consultation \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "sales"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-2",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Pre-Owned Vehicle Review \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "sales"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SALES-OFFER-3",
+      "type": "sales-special",
+      "department": "sales",
+      "name": "Trade-In Appraisal \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "sales"
+      ],
+      "image": "assets/DARKMODE-IMAGE-001.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-1",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Genuine Parts Inquiry \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "parts"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-2",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Accessory Fitment Check \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "parts"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "PARTS-OFFER-3",
+      "type": "parts-special",
+      "department": "parts",
+      "name": "Maintenance Parts Bundle \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "parts"
+      ],
+      "image": "assets/DARKMODE-IMAGE-003.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-1",
+      "type": "service",
+      "department": "service",
+      "name": "Oil & Filter Service \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "service"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-2",
+      "type": "service",
+      "department": "service",
+      "name": "Tire Rotation & Inspection \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "service"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    },
+    {
+      "id": "SERVICE-OFFER-3",
+      "type": "service",
+      "department": "service",
+      "name": "Brake Inspection \u2014 Demo Special",
+      "price": "Request sample offer details",
+      "description": "Illustrative offer only. Not a published dealership promotion. Contact the team for current terms.",
+      "condition": "",
+      "tags": [
+        "special",
+        "service"
+      ],
+      "image": "assets/DARKMODE-IMAGE-004.png",
+      "url": "",
+      "active": true,
+      "expires": ""
+    }
+  ]
+}
